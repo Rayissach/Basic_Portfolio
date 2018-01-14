@@ -2,31 +2,40 @@
 
 .header{
 	 background-color: #ffffff;
-    text-align: center;
-    border-bottom:3px solid #4aaaa5;
+    /*text-align: center;*/
+    /*border-bottom:3px solid #4aaaa5;*/
     height: 80px;
+    clear:both;
 }
 
-
+.entire_area{
+	width: 960px;
+	height: 100%;
+	margin: 20px;
+	position: relative;
+}
 .main-content{
 	background-color: #ffffff;
 	border-color:#dddddd;
 	border:1px solid #cccccc;
-	padding: 20px;
-	left: 0px;
+	/*padding: 20px;*/
+	/*left: 0px;*/
 	/*float: left;*/
     width: 650px;
+    position: relative;
 }
 
 .name{
 	background: #4aaaa5;
+	color: white;
 	padding: 10px;
-	right: -20px;
+	/*right: -20px;*/
+	/*left: 20px;*/
 	width: 350px;
+	height: 60px;
 	font-family:'Georgia', Times, "Times New Roman", serif;
 	float: left;
-	height: 60px;
-	color: white;
+
 }
 
 h2{
@@ -36,9 +45,7 @@ h2{
 
 .background{
 	background-color: #ededed;
-	padding: 40px 10% 40px 10%;
 	height: 100%;
-	width: 100%;
 }
 
 
@@ -48,7 +55,7 @@ footer{
 		color:white;
 		width: 100%;
     	background-color:#666666;
-		/*text-align: center;*/
+		text-align: center;
 		border-top: 5px solid #4aaaa5;
 		height: 100px;
 		bottom: 0px;
@@ -83,11 +90,9 @@ p{
 	border-color:#dddddd;
 	border:1px solid #cccccc;
 	padding: 20px;
-	width: 200px;
-	right: 0px;
-	/*float: left;*/
+	float: left;
     width: 270px;
-    padding-left: 20px;
+    /*padding-left: 20px;*/
 }
 
 .f_text{
@@ -126,3 +131,4 @@ p{
     margin: 4px 2px;
     cursor: pointer;
 }
+
